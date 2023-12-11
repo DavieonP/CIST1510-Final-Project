@@ -1,0 +1,491 @@
+/* Reset some default styles */
+html {
+    background-color: #cdd3bc;
+}
+
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles for the body */
+body {
+    background-color: #cdd3bc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    width: calc(100% - 10px);
+    margin: 10px;
+}
+
+/* Odd and even styles for alternating sections */
+.odd, .even {
+    background-color: #cdd3bc;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.odd .image img {
+    max-width: 80%;
+    height: auto;
+}
+
+.even .image img {
+    max-width: 50%;
+    height: auto;
+}
+
+/* Content section styles */
+.content {
+    flex: 1;
+    padding: 20px;
+    color: #000000;
+    font-size: 18px;
+}
+
+/* Image and video styles */
+.image {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+.even .video-container {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.even .video-container video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border: none;
+}
+
+.odd .image img {
+    max-width: 80%;
+    height: auto;
+}
+/* Heading styles */
+h1, .index-section h1 {
+    color: #0c2454;
+    font-size: 44px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+}
+
+/* Paragraph styles */
+p, .index-section p {
+    color: black;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 25px;
+}
+.content .calendar .event p {
+    color: black;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 25px;
+}
+
+/* Hero section styles */
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #362e04;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Calendar section styles */
+.calendar, h2, .calendar p {
+    color: #0c2454;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.calendar-img img {
+    width: 110%;
+    height: 850px;
+    margin: 0;
+}
+
+/* Contact image styles */
+.contactimage {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.contactimage img {
+    max-width: 150px;
+    height: auto;
+    text-align: right;
+    float: right;
+    border: none;
+}
+/*educational page styles/*
+/* Campcooking section styles */
+.campcooking-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.campcooking-title {
+    font-size: 44px;
+    color: #0c2454;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.campcooking-text {
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.recipe {
+    margin-bottom: 40px;
+}
+
+.campcooking-subtitle {
+    font-size: 36px;
+    color: #0c2454;
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.recipe h4 {
+    font-size: 24px;
+    color: #0c2454;
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.recipe ul, .recipe ol {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.recipe p {
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.recipe ol {
+    padding-left: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+
+/* Header styles */
+header, .aheader {
+    background-color: #0c2454;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Hero section styles */
+.hero-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-section img {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    object-fit: cover;
+}
+
+.hero-section p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    max-width: 80%;
+}
+
+/* Header title styles */
+.header-title {
+    color: #fff;
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* Brand styles */
+.brand-brand {
+    text-align: left;
+    float: left;
+}
+
+.brand-banner {
+    background-color: #0c2454;
+    padding: 10px;
+    text-align: left;
+}
+
+.brand-banner img {
+    max-width: 20px;
+    height: auto;
+    border: none;
+}
+
+/* Our history section styles */
+.our-history-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.our-history-title {
+    font-size: 44px;
+    color: #0c2454;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.our-history-text {
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+/* Main section styles */
+main {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #0c2454;
+    clear: both;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 1em 0;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Navigation styles */
+#nav_menu ul li a:hover {
+    font-style: italic;
+}
+
+nav {
+    background-color: #0c2454;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #555;
+    min-width: 160px;
+}
+
+li:hover > ul {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        text-align: left;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        width: 100%;
+    }
+
+    ul ul {
+        position: static;
+        display: none;
+    }
+
+    li:hover > ul {
+        display: none;
+    }
+}
+
+/* Contact page styles */
+.contact-page body {
+    background-color: #f8f8f8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.contact-section img {
+    border: none;
+    max-height: 40px;
+}
+
+.contact-page .content a,
+.contact-page .form-section a {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-page .content a:hover,
+.contact-page .form-section a:hover {
+    color: #333;
+    font-style: italic;
+}
+
+.contact-page .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-page .contact-section {
+    margin-top: 30px;
+}
+
+.contact-page .contact-section .container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-page .content,
+.contact-page .form-section {
+    flex: 1;
+    max-width: 600px;
+}
+
+.contact-page ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-page ul li {
+    margin-bottom: 15px;
+}
+
+.contact-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-page label {
+    margin-bottom: 8px;
+}
+
+.contact-page input,
+.contact-page textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-page button {
+    background-color: #0c2454;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-page button:hover {
+    background-color: #06203e;
+}
+
+.contact-page footer {
+    background-color: #0c2454;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
